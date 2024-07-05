@@ -1,0 +1,273 @@
+[{"type":"module","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py","name":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py","signature":"","
+doc":"","body":"","exported":true,"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":0,"endByte":2850,"start
+Point":{"row":0,"col":0},"endPoint":{"row":100,"col":0}},"summary":"","blugeScore":29446.741621904708,"blugeExplanation":{"value":29446.741621904708,"mess
+age":"sum of:","children":[{"value":23484.35668575625,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":234.8435668
+575625,"message":"sum of:","children":[{"value":234.8435668575625,"message":"sum of:","children":[{"value":95.24158883021302,"message":"score(freq=1), com
+puted as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[
+{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":
+"boost"},{"value":0.4568245125348189,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"fre
+q, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization paramete
+r"},{"value":9,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":95.24158883021302,"mess
+age":"score(freq=1), computed as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0
+.5)) from:","children":[{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]}
+,{"value":100,"message":"boost"},{"value":0.4568245125348189,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{
+"value":1,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, lengt
+h normalization parameter"},{"value":9,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value"
+:44.36038919713648,"message":"score(freq=2), computed as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1
+ + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of
+ documents with field"}]},{"value":100,"message":"boost"},{"value":0.627151051625239,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgd
+l)) from:","children":[{"value":2,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":
+0.75,"message":"b, length normalization parameter"},{"value":9,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length
+ of field"}]}]}]}]}]},{"value":5962.384936148459,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":59.6238493614845
+9,"message":"sum of:","children":[{"value":59.62384936148459,"message":"sum of:","children":[{"value":59.62384936148459,"message":"score(freq=1), computed
+ as boost * idf * tf from:","children":[{"value":2.8449093838194073,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"va
+lue":2,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boos
+t"},{"value":0.20958083832335328,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, o
+ccurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},
+{"value":6,"message":"dl, length of field"},{"value":1.5555555555555556,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"function","fqnam
+e":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/main","name":"main","signature":"","doc":"","body":"","exported":true,"lang":"python","file":"D:\\hp
+l\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":2264,"endByte":2809,"startPoint":{"row":83,"col":0},"endPoint":{"row":96,"col":40}},"su
+mmary":"","blugeScore":22528.629380168622,"blugeExplanation":{"value":22528.629380168622,"message":"sum of:","children":[{"value":22528.629380168622,"mess
+age":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":225.2862938016862,"message":"sum of:","children":[{"value":225.2862938
+016862,"message":"sum of:","children":[{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","children":[{"value":2.084
+861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of documents containing te
+rm"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161,"message":"tf, compute
+d as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"},{"value":1.2,"mess
+age":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, length of field"},{"value":9
+.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","
+children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number o
+f documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.43710021321961
+61,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within docu
+ment"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, len
+gth of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":43.0276030231869,"message":"score(freq=2), computed as b
+oost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":
+17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},
+{"value":0.6083086053412463,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, occurr
+ences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"val
+ue":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"function","fqname":"D:
+\\hpl\\projects\\symf-demo/symf_upsert_index.py/cancel","name":"cancel","signature":"","doc":"","body":"","exported":true,"lang":"python","file":"D:\\hpl\
+\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":1911,"endByte":2029,"startPoint":{"row":70,"col":4},"endPoint":{"row":73,"col":22}},"summ
+ary":"","blugeScore":22528.629380168622,"blugeExplanation":{"value":22528.629380168622,"message":"sum of:","children":[{"value":22528.629380168622,"messag
+e":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":225.2862938016862,"message":"sum of:","children":[{"value":225.286293801
+6862,"message":"sum of:","children":[{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","children":[{"value":2.08486
+1609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of documents containing term
+"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161,"message":"tf, computed
+as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"},{"value":1.2,"messag
+e":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, length of field"},{"value":9.1
+1111111111111,"message":"avgdl, average length of field"}]}]},{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","ch
+ildren":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of
+documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161
+,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within docume
+nt"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, lengt
+h of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":43.0276030231869,"message":"score(freq=2), computed as boo
+st * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17
+,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"
+value":0.6083086053412463,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, occurren
+ces of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value
+":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"function","fqname":"D:\\
+hpl\\projects\\symf-demo/symf_upsert_index.py/on_cancelled","name":"on_cancelled","signature":"","doc":"","body":"","exported":true,"lang":"python","file"
+:"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":2037,"endByte":2244,"startPoint":{"row":75,"col":4},"endPoint":{"row":80,"col":
+55}},"summary":"","blugeScore":22528.629380168622,"blugeExplanation":{"value":22528.629380168622,"message":"sum of:","children":[{"value":22528.6293801686
+22,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":225.2862938016862,"message":"sum of:","children":[{"value":225
+.2862938016862,"message":"sum of:","children":[{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","children":[{"valu
+e":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of documents conta
+ining term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161,"message":"tf,
+ computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"},{"value":1
+.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, length of field"},{"
+value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":43.0276030231869,"message":"score(freq=2), computed as boost * idf * tf f
+rom:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17,"message":"n,
+number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.608308
+6053412463,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, occurrences of term wit
+hin document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":
+"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":91.12934538924965,"message":"score(freq=1), comp
+uted as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{
+"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"
+boost"},{"value":0.4371002132196161,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq
+, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter
+"},{"value":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"function","fqn
+ame":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/is_cancelled","name":"is_cancelled","signature":"","doc":"","body":"","exported":true,"lang":"pyth
+on","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":1845,"endByte":1903,"startPoint":{"row":67,"col":4},"endPoint":{"row"
+:68,"col":33}},"summary":"","blugeScore":22528.629380168622,"blugeExplanation":{"value":22528.629380168622,"message":"sum of:","children":[{"value":22528.
+629380168622,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":225.2862938016862,"message":"sum of:","children":[{"
+value":225.2862938016862,"message":"sum of:","children":[{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","childre
+n":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of docum
+ents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161,"mes
+sage":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"},
+{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, length of
+field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":43.0276030231869,"message":"score(freq=2), computed as boost *
+idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17,"mes
+sage":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value
+":0.6083086053412463,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, occurrences o
+f term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,
+"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":91.12934538924965,"message":"score(fre
+q=1), computed as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","ch
+ildren":[{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"
+message":"boost"},{"value":0.4371002132196161,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"mess
+age":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization
+ parameter"},{"value":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"func
+tion","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/__init__","name":"__init__","signature":"","doc":"","body":"","exported":true,"lang":"py
+thon","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":1737,"endByte":1822,"startPoint":{"row":62,"col":4},"endPoint":{"ro
+w":64,"col":28}},"summary":"","blugeScore":22528.629380168622,"blugeExplanation":{"value":22528.629380168622,"message":"sum of:","children":[{"value":2252
+8.629380168622,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":225.2862938016862,"message":"sum of:","children":[
+{"value":225.2862938016862,"message":"sum of:","children":[{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","child
+ren":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of doc
+uments containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161,"m
+essage":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"
+},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, length o
+f field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":91.12934538924965,"message":"score(freq=1), computed as boost
+ * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"m
+essage":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"val
+ue":0.4371002132196161,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences
+ of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":1
+0,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":43.0276030231869,"message":"score(fr
+eq=2), computed as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","
+children":[{"value":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100
+,"message":"boost"},{"value":0.6083086053412463,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"me
+ssage":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalizati
+on parameter"},{"value":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"fu
+nction","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/on_exit","name":"on_exit","signature":"","doc":"","body":"","exported":true,"lang":"py
+thon","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":732,"endByte":771,"startPoint":{"row":30,"col":8},"endPoint":{"row"
+:31,"col":23}},"summary":"","blugeScore":22528.629380168622,"blugeExplanation":{"value":22528.629380168622,"message":"sum of:","children":[{"value":22528.
+629380168622,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":225.2862938016862,"message":"sum of:","children":[{"
+value":225.2862938016862,"message":"sum of:","children":[{"value":91.12934538924965,"message":"score(freq=1), computed as boost * idf * tf from:","childre
+n":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, number of docum
+ents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.4371002132196161,"mes
+sage":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"},
+{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, length of
+field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":43.0276030231869,"message":"score(freq=2), computed as boost *
+idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17,"mes
+sage":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value
+":0.6083086053412463,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, occurrences o
+f term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,
+"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":91.12934538924965,"message":"score(fre
+q=1), computed as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","ch
+ildren":[{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"
+message":"boost"},{"value":0.4371002132196161,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"mess
+age":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization
+ parameter"},{"value":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"func
+tion","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/to_symf_error","name":"to_symf_error","signature":"","doc":"","body":"","exported":true,
+"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":120,"endByte":198,"startPoint":{"row":9,"col":0},"endPoin
+t":{"row":11,"col":16}},"summary":"","blugeScore":22308.967792762625,"blugeExplanation":{"value":22308.967792762625,"message":"sum of:","children":[{"valu
+e":22308.967792762625,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":223.08967792762624,"message":"sum of:","chi
+ldren":[{"value":223.08967792762624,"message":"sum of:","children":[{"value":87.3575124937314,"message":"score(freq=1), computed as boost * idf * tf from:
+","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, numbe
+r of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.41900868676
+54573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within d
+ocument"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":11,"message":"dl,
+length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":48.37465294016342,"message":"score(freq=3), computed
+as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"val
+ue":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boos
+t"},{"value":0.6839032527105922,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":3,"message":"freq, oc
+currences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{
+"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":87.3575124937314,"message":
+"score(freq=1), computed as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5))
+from:","children":[{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"va
+lue":100,"message":"boost"},{"value":0.4190086867654573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"valu
+e":1,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length nor
+malization parameter"},{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"t
+ype":"function","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/run_symf","name":"run_symf","signature":"","doc":"","body":"","exported":true,
+"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":202,"endByte":1703,"startPoint":{"row":13,"col":0},"endPo
+int":{"row":59,"col":60}},"summary":"","blugeScore":22308.967792762625,"blugeExplanation":{"value":22308.967792762625,"message":"sum of:","children":[{"va
+lue":22308.967792762625,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":223.08967792762624,"message":"sum of:","c
+hildren":[{"value":223.08967792762624,"message":"sum of:","children":[{"value":87.3575124937314,"message":"score(freq=1), computed as boost * idf * tf fro
+m:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, num
+ber of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.419008686
+7654573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within
+ document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":11,"message":"dl
+, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":87.3575124937314,"message":"score(freq=1), computed
+ as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"val
+ue":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boos
+t"},{"value":0.4190086867654573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, oc
+currences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{
+"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":48.37465294016342,"message"
+:"score(freq=3), computed as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)
+) from:","children":[{"value":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"
+value":100,"message":"boost"},{"value":0.6839032527105922,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"va
+lue":3,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length n
+ormalization parameter"},{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{
+"type":"class","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/AbortError","name":"AbortError","signature":"","doc":"","body":"","exported":tr
+ue,"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":78,"endByte":116,"startPoint":{"row":6,"col":0},"endPo
+int":{"row":7,"col":8}},"summary":"","blugeScore":21648.759169632558,"blugeExplanation":{"value":21648.759169632558,"message":"sum of:","children":[{"valu
+e":21648.759169632558,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":216.48759169632558,"message":"sum of:","chi
+ldren":[{"value":216.48759169632558,"message":"sum of:","children":[{"value":87.3575124937314,"message":"score(freq=1), computed as boost * idf * tf from:
+","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,"message":"n, numbe
+r of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.41900868676
+54573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within d
+ocument"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":11,"message":"dl,
+length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":41.772566708862755,"message":"score(freq=2), computed
+ as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"va
+lue":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boo
+st"},{"value":0.5905653583003241,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, o
+ccurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},
+{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":87.3575124937314,"message"
+:"score(freq=1), computed as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5))
+ from:","children":[{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"v
+alue":100,"message":"boost"},{"value":0.4190086867654573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"val
+ue":1,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length no
+rmalization parameter"},{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"
+type":"class","fqname":"D:\\hpl\\projects\\symf-demo/symf_upsert_index.py/CancellationToken","name":"CancellationToken","signature":"","doc":"","body":"",
+"exported":true,"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_upsert_index.py","range":{"startByte":1707,"endByte":2244,"startPoint":{"row":6
+1,"col":0},"endPoint":{"row":80,"col":55}},"summary":"","blugeScore":21648.759169632558,"blugeExplanation":{"value":21648.759169632558,"message":"sum of:"
+,"children":[{"value":21648.759169632558,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":216.48759169632558,"mess
+age":"sum of:","children":[{"value":216.48759169632558,"message":"sum of:","children":[{"value":87.3575124937314,"message":"score(freq=1), computed as boo
+st * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":11,
+"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"v
+alue":0.4190086867654573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrenc
+es of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value"
+:11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":87.3575124937314,"message":"score(
+freq=1), computed as boost * idf * tf from:","children":[{"value":2.084861609149175,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:",
+"children":[{"value":11,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":10
+0,"message":"boost"},{"value":0.4190086867654573,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"m
+essage":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalizat
+ion parameter"},{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]},{"value":41.7725667
+08862755,"message":"score(freq=2), computed as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n
++ 0.5) / (n + 0.5)) from:","children":[{"value":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents
+ with field"}]},{"value":100,"message":"boost"},{"value":0.5905653583003241,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:
+","children":[{"value":2,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"mes
+sage":"b, length normalization parameter"},{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of fiel
+d"}]}]}]}]}]}]}},{"type":"module","fqname":"D:\\hpl\\projects\\symf-demo/symf_query.py","name":"D:\\hpl\\projects\\symf-demo/symf_query.py","signature":""
+,"doc":"","body":"","exported":true,"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_query.py","range":{"startByte":0,"endByte":3043,"startPoint
+":{"row":0,"col":0},"endPoint":{"row":108,"col":0}},"summary":"","blugeScore":10540.223047849795,"blugeExplanation":{"value":10540.223047849795,"message":
+"sum of:","children":[{"value":4577.838111701337,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":45.7783811170133
+7,"message":"sum of:","children":[{"value":45.77838111701337,"message":"sum of:","children":[{"value":45.77838111701337,"message":"score(freq=2), computed
+ as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"va
+lue":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boo
+st"},{"value":0.6471981057616417,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":2,"message":"freq, o
+ccurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},
+{"value":8,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]},{"value":5962.384936148459,"me
+ssage":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":59.62384936148459,"message":"sum of:","children":[{"value":59.623849
+36148459,"message":"sum of:","children":[{"value":59.62384936148459,"message":"score(freq=1), computed as boost * idf * tf from:","children":[{"value":2.8
+449093838194073,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":2,"message":"n, number of documents containing
+term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.20958083832335328,"message":"tf, comp
+uted as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":1,"message":"freq, occurrences of term within document"},{"value":1.2,"m
+essage":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":6,"message":"dl, length of field"},{"value"
+:1.5555555555555556,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"function","fqname":"D:\\hpl\\projects\\symf-demo/symf_query.py/to_sy
+mf_error","name":"to_symf_error","signature":"","doc":"","body":"","exported":true,"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_query.py","r
+ange":{"startByte":89,"endByte":183,"startPoint":{"row":7,"col":0},"endPoint":{"row":9,"col":32}},"summary":"","blugeScore":4948.908607103749,"blugeExplan
+ation":{"value":4948.908607103749,"message":"sum of:","children":[{"value":4948.908607103749,"message":"computed as boost * sum","children":[{"value":100,
+"message":"boost"},{"value":49.48908607103749,"message":"sum of:","children":[{"value":49.48908607103749,"message":"sum of:","children":[{"value":49.48908
+607103749,"message":"score(freq=3), computed as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n
+ + 0.5) / (n + 0.5)) from:","children":[{"value":17,"message":"n, number of documents containing term"},{"value":18,"message":"N, total number of document
+s with field"}]},{"value":100,"message":"boost"},{"value":0.6996587030716723,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from
+:","children":[{"value":3,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"me
+ssage":"b, length normalization parameter"},{"value":10,"message":"dl, length of field"},{"value":9.11111111111111,"message":"avgdl, average length of fie
+ld"}]}]}]}]}]}]}},{"type":"class","fqname":"D:\\hpl\\projects\\symf-demo/symf_query.py/SymfError","name":"SymfError","signature":"","doc":"","body":"","ex
+ported":true,"lang":"python","file":"D:\\hpl\\projects\\symf-demo\\symf_query.py","range":{"startByte":48,"endByte":85,"startPoint":{"row":4,"col":0},"end
+Point":{"row":5,"col":8}},"summary":"","blugeScore":4948.908607103749,"blugeExplanation":{"value":4948.908607103749,"message":"sum of:","children":[{"valu
+e":4948.908607103749,"message":"computed as boost * sum","children":[{"value":100,"message":"boost"},{"value":49.48908607103749,"message":"sum of:","child
+ren":[{"value":49.48908607103749,"message":"sum of:","children":[{"value":49.48908607103749,"message":"score(freq=3), computed as boost * idf * tf from:",
+"children":[{"value":0.7073318155519017,"message":"idf, computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17,"message":"n, number
+ of documents containing term"},{"value":18,"message":"N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.699658703071
+6723,"message":"tf, computed as freq / (freq + k1 * (1 - b + b * dl / avgdl)) from:","children":[{"value":3,"message":"freq, occurrences of term within do
+cument"},{"value":1.2,"message":"k1, term saturation parameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":10,"message":"dl, l
+ength of field"},{"value":9.11111111111111,"message":"avgdl, average length of field"}]}]}]}]}]}]}},{"type":"function","fqname":"D:\\hpl\\projects\\symf-d
+emo/symf_query.py/get_symf_info","name":"get_symf_info","signature":"","doc":"","body":"","exported":true,"lang":"python","file":"D:\\hpl\\projects\\symf-
+demo\\symf_query.py","range":{"startByte":1331,"endByte":1619,"startPoint":{"row":47,"col":0},"endPoint":{"row":53,"col":5}},"summary":"","blugeScore":483
+7.465294016342,"blugeExplanation":{"value":4837.465294016342,"message":"sum of:","children":[{"value":4837.465294016342,"message":"computed as boost * sum
+","children":[{"value":100,"message":"boost"},{"value":48.37465294016342,"message":"sum of:","children":[{"value":48.37465294016342,"message":"sum of:","c
+hildren":[{"value":48.37465294016342,"message":"score(freq=3), computed as boost * idf * tf from:","children":[{"value":0.7073318155519017,"message":"idf,
+ computed as log(1 + (N - n + 0.5) / (n + 0.5)) from:","children":[{"value":17,"message":"n, number of documents containing term"},{"value":18,"message":"
+N, total number of documents with field"}]},{"value":100,"message":"boost"},{"value":0.6839032527105922,"message":"tf, computed as freq / (freq + k1 * (1
+- b + b * dl / avgdl)) from:","children":[{"value":3,"message":"freq, occurrences of term within document"},{"value":1.2,"message":"k1, term saturation pa
+rameter"},{"value":0.75,"message":"b, length normalization parameter"},{"value":11,"message":"dl, length of field"},{"value":9.11111111111111,"message":"a
+vgdl, average length of field"}]}]}]}]}]}]}}]
