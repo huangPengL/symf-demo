@@ -3,6 +3,7 @@ import subprocess
 import signal
 import shutil
 import asyncio
+import time
 
 class AbortError(Exception):
     pass
@@ -10,6 +11,7 @@ class AbortError(Exception):
 def to_symf_error(error):
     # 转换错误为 symf 错误
     return error
+
 
 async def run_symf(symf_path, tmp_index_dir, scope_dir, index_dir, max_cpus, cancellation_token):
     proc = None
@@ -52,8 +54,6 @@ async def run_symf(symf_path, tmp_index_dir, scope_dir, index_dir, max_cpus, can
             raise AbortError()
         raise to_symf_error(error)
     finally:
-        if on_exit:
-            proc.kill()
         for dispose in dispose_on_finish:
             dispose()
         if os.path.exists(tmp_index_dir):
@@ -82,6 +82,7 @@ class CancellationToken:
 
 # 示例用法
 async def main():
+    st = time.time()
     symf_path = r'symf_path\symf-v0.0.12-x86_64-windows'
     tmp_index_dir = r'D://hpl//projects//temp//symf-demo//temp-index'
     scope_dir = r'./'
@@ -90,11 +91,16 @@ async def main():
     cancellation_token = CancellationToken()
 
     try:
+        # 运行查询
         await run_symf(symf_path, tmp_index_dir, scope_dir, index_dir, max_cpus, cancellation_token)
+        print("Operation completed successfully")
+
     except AbortError:
         print("Operation was cancelled")
     except Exception as e:
         print(f"An error occurred: {e}")
+
+    print((time.time() - st) * 1000, "ms")
 
 # 运行示例
 asyncio.run(main())

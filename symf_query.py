@@ -9,8 +9,17 @@ def to_symf_error(error):
     # 转换错误为 symf 错误
     return SymfError(str(error))
 
+async def get_info():
+    return {
+        'accessToken': 'sgp_a0d7ccb4f752ea73_48e23c69a4b202b2df9a3b21a247948cd231be8a',
+        'symfPath': r'symf_path\symf-v0.0.12-x86_64-windows',
+        'serverEndpoint': 'https://sourcegraph.com/'
+    }
+    
 async def unsafe_run_query(user_query, keyword_query, scope_dir, index_dir):
-    symf_info = await get_symf_info()
+    # 获取信息
+    symf_info = await get_info()
+    
     access_token = symf_info['accessToken']
     symf_path = symf_info['symfPath']
     server_endpoint = symf_info['serverEndpoint']
@@ -45,13 +54,6 @@ async def unsafe_run_query(user_query, keyword_query, scope_dir, index_dir):
         raise to_symf_error(error)
 
 
-async def get_symf_info():
-    # 获取 symf 信息的逻辑
-    return {
-        'accessToken': 'sgp_a0d7ccb4f752ea73_48e23c69a4b202b2df9a3b21a247948cd231be8a',
-        'symfPath': r'symf_path\symf-v0.0.12-x86_64-windows',
-        'serverEndpoint': 'https://sourcegraph.com/'
-    }
 
 # 示例用法
 async def main():
@@ -99,10 +101,13 @@ async def main():
     index_dir = r'D://hpl//projects//temp//symf-demo//index'
 
     try:
-        result = await unsafe_run_query(user_query, keyword_query, scope_dir, index_dir)
-        print(result)
-    except SymfError as e:
-        print(f"An error occurred: {e}")
+      # 调用查询
+      result = await unsafe_run_query(user_query, keyword_query, scope_dir, index_dir)
+      # 输出结果
+      print(f"result: {result}")
+    
+    except SymfError as error:
+        print(f"symf error: {error}")
 
 # 运行示例
 asyncio.run(main())
